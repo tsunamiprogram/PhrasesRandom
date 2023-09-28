@@ -1,0 +1,45 @@
+.main--container {
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main--container.bg1 {
+  background-image: url(/public/Bg1.jpg);
+}
+.main--container.bg2opt {
+  background-image: url(/public/bg2opt.jpg);
+}
+.main--container.bg3opt {
+  background-image: url(/public/bg3opt.jpg);
+}
+.main--container.bg4opt {
+  background-image: url(/public/bg4opt.jpg);
+}
+.quoteCard--container {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+  padding: 10px 5px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.33)
+  );
+  max-width: 400px ;
+  
+}
+.quoteCard--footer {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.33)
+  );
+}
+
+.quoteCard--btn {
+    border: 1px;
+    border-radius: 5%;
+}
