@@ -6,8 +6,8 @@
   display: flex;
 }
 
-.main--container.bg1 {
-  background-image: url(/public/Bg1.jpg);
+.main--container.Bg1 {
+  background-image: url(/public/Bg1.jpg );
 }
 .main--container.bg2opt {
   background-image: url(/public/bg2opt.jpg);
@@ -18,9 +18,9 @@
 .main--container.bg4opt {
   background-image: url(/public/bg4opt.jpg);
 }
-.quoteCard--container {
+.quoteCard--phrase {
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 10px 5px;
   background: linear-gradient(
     rgba(255, 255, 255, 1),
@@ -40,6 +40,18 @@
 }
 
 .quoteCard--btn {
-    border: 1px;
-    border-radius: 5%;
+  max-width: 40px;
+  max-height: 40px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.33)
+  );
+  
 }
+.icon {
+  max-width: 20px;
+}
+

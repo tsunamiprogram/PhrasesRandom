@@ -7,6 +7,11 @@
   padding: 10px;
   color: #25063f;
 }
+
+.quoteCard--title {
+  color: whitesmoke
+}
+
 .quoteCard--phrase {
   margin: 30px auto;
   max-width: 400px;
